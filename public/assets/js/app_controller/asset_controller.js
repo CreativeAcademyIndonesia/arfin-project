@@ -121,7 +121,7 @@
             $('.form-uploadgbr').hide();
             $('.form-gambaredit').show();
             $('.img-url').text(tbl['asset_gambar']);
-            $('.img-url').attr('href', '/projects/project-001/assets/asset_img/' + tbl['asset_gambar']+'');
+            $('.img-url').attr('href', '/assets/asset_img/' + tbl['asset_gambar']+'');
         } else {
             $('.form-uploadgbr').show();
             $('.form-gambaredit').hide();
